@@ -26,13 +26,16 @@ SECRET_KEY = 'django-insecure-)q24fkst0x02ntj)&(i#=(_m*_it7^tofveo-===b&sa63!!0%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.43.154']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'car_app',
     'pages',
+    'ckeditor',
+    'django.contrib.humanize',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
